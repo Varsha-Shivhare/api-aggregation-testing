@@ -1,6 +1,6 @@
 # Aggregation Test API
 
-[Introduction](https://restful.io/an-introduction-to-api-s-cee90581ca1b)
+[Introduction](https://documenter.getpostman.com/view/1522130/RWaHw8gN#87e1dda5-640c-0890-f96e-0e9e13cac4b4)
 
 ## API implementation
 
