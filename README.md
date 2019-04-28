@@ -28,9 +28,8 @@ Consider the following points when you implement the code to handle requests:
   http://localhost:3000/user
 
 ```
-<a href img src="C:\Users\VARSHA SHIVHARE\Desktop\api_test\1.jpg" height="256px" align="right">
-    
-![image](C:\Users\VARSHA SHIVHARE\Desktop\api_test\1.jpg)
+![image](https://user-images.githubusercontent.com/50067937/56867872-b1654f00-6a08-11e9-9697-617af45801d5.png)
+
 
 2. POST [add company](https://documenter.getpostman.com/view/1522130/RWaHw8gN#32777c12-5522-7c52-8bc4-4e3265f21216): Add a company
 
