@@ -1,7 +1,6 @@
 # Aggregation Test API
 
-[Introduction] (href="https://docs.mongodb.com/manual/aggregation/)
+[Introduction] (https://docs.mongodb.com/manual/aggregation/)
 
-<a href="https://docs.mongodb.com/manual/aggregation/">
 
 
