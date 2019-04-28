@@ -2,15 +2,21 @@
 
 [Introduction](https://documenter.getpostman.com/view/1522130/RWaHw8gN#intro)
 
-##API implementation
+## API implementation
 
 A web API defines the resources, relationships, and navigation schemes that are accessible to client applications. When you implement and deploy a web API, you should consider the physical requirements of the environment hosting the web API and the way in which the web API is constructed rather than the logical structure of the data. This guidance focusses on best practices for implementing a web API and publishing it to make it available to client applications.
 
 Consider the following points when you implement the code to handle requests:
 
-**GET, PUT, DELETE, HEAD, and PATCH actions should be unchanged or idempotent**
+*POST, GET, and PATCH actions should be unchanged or idempotent
+*If a POST request is intended to create a new resource, the effects of the request should be limited to the new resource
 
 POST [add user](https://documenter.getpostman.com/view/1522130/RWaHw8gN#a89157ce-0efa-c5bf-a9cf-9a4db8fdac7b)
+
+```
+  http://localhost:3000/user
+
+```
 
 POST [add company](https://documenter.getpostman.com/view/1522130/RWaHw8gN#32777c12-5522-7c52-8bc4-4e3265f21216)
 
