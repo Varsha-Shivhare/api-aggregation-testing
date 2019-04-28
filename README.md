@@ -8,8 +8,18 @@ A web API defines the resources, relationships, and navigation schemes that are 
 
 Consider the following points when you implement the code to handle requests:
 
-*POST, GET, and PATCH actions should be unchanged or idempotent
-*If a POST request is intended to create a new resource, the effects of the request should be limited to the new resource
+* POST, GET, and PATCH actions should be unchanged or idempotent
+
+    The code that implements these requests should not impose any side-effects. The same request repeated over the same resource should     result in the same state. 
+
+* POST actions that create new resources should not have unrelated side-effects
+
+    If a POST request is intended to create a new resource, the effects of the request should be limited to the new resource.
+
+* Support content negotiation
+
+    The body of a response message may contain data in a variety of formats.
+
 
 POST [add user](https://documenter.getpostman.com/view/1522130/RWaHw8gN#a89157ce-0efa-c5bf-a9cf-9a4db8fdac7b)
 
