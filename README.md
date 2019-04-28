@@ -30,7 +30,7 @@ Consider the following points when you implement the code to handle requests:
 ```
 <a href img src="C:\Users\VARSHA SHIVHARE\Desktop\api_test\1.jpg" height="256px" align="right">
     
-    [Example request and response:](C:\Users\VARSHA SHIVHARE\Desktop\api_test\1.jpg)
+![image](C:\Users\VARSHA SHIVHARE\Desktop\api_test\1.jpg)
 
 2. POST [add company](https://documenter.getpostman.com/view/1522130/RWaHw8gN#32777c12-5522-7c52-8bc4-4e3265f21216): Add a company
 
