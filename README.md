@@ -1,6 +1,6 @@
 # Aggregation Test API
 
-[Introduction](https://documenter.getpostman.com/view/1522130/RWaHw8gN#87e1dda5-640c-0890-f96e-0e9e13cac4b4)
+[Introduction](https://documenter.getpostman.com/view/1522130/RWaHw8gN#intro)
 
 ## API implementation
 
@@ -103,5 +103,12 @@ Consider the following points when you implement the code to handle requests:
 ```
 ![image](https://user-images.githubusercontent.com/50067937/56867998-2e44f880-6a0a-11e9-94f0-a6f9cd2f8d99.png)
 
-###  
+### API implementations - including request and response parameters
+
+**Request parameter:**
+
+| Parameter  | Description                                          |
+| --------   | ------------------------------------ | ----------------------------------- |
+| 1-18       |   Raspbian OS (latest)               | Raspbian                            |
+
 
