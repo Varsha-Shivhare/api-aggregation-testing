@@ -108,11 +108,11 @@ Consider the following points when you implement the code to handle requests:
 **Request parameter:**
 
 | Parameter        | Description                                           |
-| --------         | ------------------------------------------------------| 
+|                  |                                                       | 
 | api_key          |   The public API key                                  | 
-| --------         | ------------------------------------------------------|
+|                  |                                                       |
 |  request_token   | Te one time token obtained after the login flow. This token's lifetime is only a few minutes nd it is meant to be exchanged for an access_token immediately after being obtained|
-| --------         | ------------------------------------------------------|
+|                  |                                                       |
 | checksum         | SHA-256 hash of (api_key + request_token + api_secret)|
-| --------         | ------------------------------------------------------|
+|                  |                                                       |
 
