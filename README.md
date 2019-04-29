@@ -10,15 +10,15 @@ Consider the following points when you implement the code to handle requests:
 
 * POST, GET, and PATCH actions should be unchanged or idempotent
 
-    The code that implements these requests should not impose any side-effects. The same request repeated over the same resource should     result in the same state. 
+* The code that implements these requests should not impose any side-effects. The same request repeated over the same resource should     result in the same state. 
 
 * POST actions that create new resources should not have unrelated side-effects
 
-    If a POST request is intended to create a new resource, the effects of the request should be limited to the new resource.
+* If a POST request is intended to create a new resource, the effects of the request should be limited to the new resource.
 
 * Support content negotiation
 
-    The body of a response message may contain data in a variety of formats.
+* The body of a response message may contain data in a variety of formats.
 
 **Following are the steps to query the data:**
 
@@ -116,10 +116,15 @@ Consider the following points when you implement the code to handle requests:
 
 **Request attribute:**
 
-| Attribute           | Description                                                                                                                                                                              |
-|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
-| ` user_id `         | The unique, permanent user ID registered with the broker and the exchanges                                                                                                                |
-| ` user_name `       | User's real name                                                                                                                                                                          |
-| ` user_shortname `  | Shortened verion of the user's real name                                                                                                                                                  |
-| ` email `           | User's email                                                                                                                                                                              |
+| Attribute           | Body            | Description                                                                                                                                                            |
+|---------------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| ` user_id `         |                 |The unique, permanent user ID registered with the broker and the exchanges                                                                                              |
+| ` user_name `       |                 |User's real name                                                                                                                                                        |
+| ` user_shortname `  |                 | Shortened verion of the user's real name                                                                                                                                |
+| ` email `           |                 |User's email                                                                                                                                                            |
+
+## Another important referances
+
+[Get Postman](https://www.getpostman.com/collection)
+[]()
 
