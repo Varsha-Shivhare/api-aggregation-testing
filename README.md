@@ -1,6 +1,6 @@
 # Aggregation Test API
 
-[Introduction](https://documenter.getpostman.com/view/1522130/RWaHw8gN#intro)
+[Introduction](https://learning.getpostman.com/docs/postman/api_documentation/intro_to_api_documentation)
 
 ## API implementation
 
