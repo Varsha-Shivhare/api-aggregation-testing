@@ -116,12 +116,12 @@ Consider the following points when you implement the code to handle requests:
 
 **Request attribute:**
 
-| Attribute           | Body            | Description                                                                                                                                                            |
+| Attribute           | Type            | Description                                                                                                                                                            |
 |---------------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
-| ` user_id `         |                 |The unique, permanent user ID registered with the broker and the exchanges                                                                                              |
-| ` user_name `       |                 |User's real name                                                                                                                                                        |
-| ` user_shortname `  |                 | Shortened verion of the user's real name                                                                                                                                |
-| ` email `           |                 |User's email                                                                                                                                                            |
+| ` user_id `         | String          |The unique, permanent user ID registered with the broker and the exchanges                                                                                              |
+| ` user_name `       | String          |User's real name                                                                                                                                                        |
+| ` user_shortname `  | String          | Shortened verion of the user's real name                                                                                                                                |
+| ` email `           | String          |User's email                                                                                                                                                            |
 
 ## Another important referances
 
