@@ -126,5 +126,6 @@ Consider the following points when you implement the code to handle requests:
 ## Another important referances
 
 [Get Postman](https://www.getpostman.com/collection)
-[]()
+[Get Started with Postman](https://learning.getpostman.com/getting-started/)
+[Postman Concepts](https://learning.getpostman.com/concepts/)
 
