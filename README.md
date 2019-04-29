@@ -116,10 +116,10 @@ Consider the following points when you implement the code to handle requests:
 
 **Request attribute:**
 
-| Attribute              | Description                                                                                                                   |
-|------------------------|------------------------------------------------------------------------------------------------------------------------------| 
-| ` user_id `            | The unique, permanent user ID registered with the broker and the exchanges                                                   |
-| ` user_name `          | User's real name                                                                                                             |
-| ` user_shortname `     | Shortened verion of the user's real name                                                                                     |
-| ` email `              | User's email                                                                                                                 |
+| Attribute           | Description                                                                                                                                                                              |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| ` user_id `         | The unique, permanent user ID registered with the broker and the exchanges                                                                                                                |
+| ` user_name `       | User's real name                                                                                                                                                                          |
+| ` user_shortname `  | Shortened verion of the user's real name                                                                                                                                                  |
+| ` email `           | User's email                                                                                                                                                                              |
 
