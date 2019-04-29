@@ -123,7 +123,7 @@ Consider the following points when you implement the code to handle requests:
 | ` user_shortname `  | String          | Shortened verion of the user's real name                                                                                                                                |
 | ` email `           | String          |User's email                                                                                                                                                            |
 
-## Another important referances
+## Another important references
 
 * [Get Postman](https://www.getpostman.com/collection)
 
