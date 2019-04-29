@@ -1,4 +1,4 @@
-# Aggregation Test API
+z# Aggregation Test API
 
 [Introduction](https://documenter.getpostman.com/view/1522130/RWaHw8gN#intro)
 
@@ -103,7 +103,7 @@ Consider the following points when you implement the code to handle requests:
 ```
 ![image](https://user-images.githubusercontent.com/50067937/56867998-2e44f880-6a0a-11e9-94f0-a6f9cd2f8d99.png)
 
-### API implementations - including request and response parameters
+## API implementations - including request and response parameters
 
 **Request parameter:**
 
@@ -112,4 +112,14 @@ Consider the following points when you implement the code to handle requests:
 | ` api_key `      |   The public API key                                  |
 | ` request_token `| Te one time token obtained after the login flow. This token's lifetime is only a few minutes nd it is meant to be exchanged for an access_token immediately after being obtained             |
 | ` checksum `     | SHA-256 hash of (api_key + request_token + api_secret)|
+
+
+**Request attribute:**
+
+| Attribute              | Description                                                               |
+|------------------------|---------------------------------------------------------------------------| 
+| ` user_id `            | The unique, permanent user ID registered with the broker and the exchanges|
+| ` user_name `          | User's real name                                                          |
+| ` user_shortname `     | Shortened verion of the user's real name                                  |
+| ` email `              | User's email                                                              |
 
