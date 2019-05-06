@@ -18,10 +18,11 @@ email: vshivhare515@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Aggregation Test API documentation
 baseurl: "/jekyll-theme-libretto" # the subpath of your site, e.g. /blog
-url: "https://ferrolho.github.io" # the base hostname & protocol for your site
+url: "https://varsha-shivhare.github.io/api-aggregation-testing.github.io/" # the base hostname & protocol for your site
 github_username:    jekyll
 instagram_username: jekyllrb
 twitter_username:   jekyllrb
 
 # Build settings
 markdown: kramdown
+theme:libretto
