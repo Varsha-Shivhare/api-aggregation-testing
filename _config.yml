@@ -25,6 +25,6 @@ twitter_username:   jekyllrb
 
 # Build settings
 markdown: kramdown
-theme:libretto
+#theme:libretto
 
 theme: jekyll-theme-architect
